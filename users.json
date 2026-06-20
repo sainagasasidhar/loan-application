@@ -1,0 +1,16 @@
+[
+    {
+        "username": "sainagasasidhar",
+        "password": "sainagasasidhar",
+        "email": "sainagasasidhar@gmail.com",
+        "role": "admin",
+        "id": 1
+    },
+    {
+        "username": "sravya",
+        "password": "sravya",
+        "email": "sravya@gmail.com",
+        "role": "admin",
+        "id": "72d24e93-d7a9-468f-940a-7a4a5cac7d99"
+    }
+]
