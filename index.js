@@ -2,27 +2,20 @@ const express = require('express');
 const app = express();
 const users = require('./Users.js');
 const fs = require('fs');
-const port = 3000;
+const env = require('dotenv').config();
+const port = process.env.PORT || 3000;
+const userRoutes = require('./routes/user.js');
 
 // Parse request bodies
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Use user routes
+app.use('/loans/api/Users', userRoutes);
+
 app.get('/loans/api', (req, res) => {
   res.send('Hello World!');
   console.log('app started');
-});
-
-app.post('/loans/api/registerUsers', (req, res) => {
-  users.createusers(req, res);
-});
-
-app.put('/loans/api/updateUsers', (req, res) => {
-  res.send('Hello World!');}
-);
-
-app.get('/loans/api/getUsers', (req, res) => {
-    users.getusers(req, res);
 });
 
 app.listen(port, () => {

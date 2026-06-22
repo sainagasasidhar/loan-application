@@ -1,16 +1,1 @@
-[
-    {
-        "username": "sainagasasidhar",
-        "password": "sainagasasidhar",
-        "email": "sainagasasidhar@gmail.com",
-        "role": "admin",
-        "id": 1
-    },
-    {
-        "username": "sravya",
-        "password": "sravya",
-        "email": "sravya@gmail.com",
-        "role": "admin",
-        "id": "72d24e93-d7a9-468f-940a-7a4a5cac7d99"
-    }
-]
+[{"username":"sainagasasidhar","password":"sainagasasidhar","email":"sainagasasidhar@gmail.com","role":"admin","id":1},{"username":"sravya","password":"sravya","email":"sravya@gmail.com","role":"admin","id":"72d24e93-d7a9-468f-940a-7a4a5cac7d99"},{"username1":"tarun","password":"tarun","email":"tarun@gmail.com","role":"user","id":"0d42d255-8ccf-4238-8a80-10b630f313cf"}]
